@@ -1,0 +1,90 @@
+body{
+    border: 1px solid;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    background-color: rgb(36, 38, 53);
+}
+
+.conte_asi{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.2;
+    background-color: rgb(27, 29, 44);
+    color: white;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.logo{
+    display: flex;
+    margin: 5px;
+    flex-grow: 0.1;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista{
+    margin: 5px;
+    display: flex;
+    flex-grow: 0.2;
+}
+
+
+div{
+    display: flex;
+    flex-grow: 1;
+}
+
+.lista_2{
+    margin: 5px;
+    display: flex;
+    flex-grow: 0.2;
+}
+
+.contenedor_2{
+    border: 1px solid;
+    margin: 5px;
+}
+
+.buscador{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    flex-grow: 0.5;
+    
+}
+
+.div2{
+    flex-grow: 0.5;
+}
+
+.conte_buscador{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+h6{
+    border: 1px solid;
+}
+
+h5{
+    border: 1px solid;
+}
+
+.contenedor_3{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
